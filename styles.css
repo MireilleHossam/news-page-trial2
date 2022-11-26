@@ -60,7 +60,7 @@ a{
 .container{
     margin: 40px auto;
     width: 1440px;
-    
+     font-size: 15px;
     font-family: 'Inter', sans-serif;
 }
 .header{
@@ -105,7 +105,7 @@ main{
 }
 .hero-text{
     font-size: 80px;
-    font-weight: 100px;
+    font-weight: bold;
 }
 .hero-description{
     display: flex;
@@ -173,12 +173,44 @@ main{
 .news-item{
     border-bottom: 1px solid hsl(35, 77%, 62%);
     margin-top: 0px;
-   
-
 }
 .news-item:last-child{
     border: none;
 }
 
+.cards{
+    display: flex;
+    margin-top: 60px;
+    gap: 80px;
+}
+.cards img{
+    max-width: 140px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+}
+.card-description a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-description a:hover{
+    color: hsl(35, 77%, 62%);;
+}
+.card-num{
+    font-size: 40px;
+    font-weight: bold;
+    color:  hsl(233, 8%, 79%); ;
+}
+.card-description p{
+    color: hsl(236, 13%, 42%) ;
+    line-height: 30px;
 
+
+}
 
